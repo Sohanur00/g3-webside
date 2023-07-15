@@ -1,0 +1,90 @@
+/* WORK SANS FONT  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* shared styles */
+.btn-primary{
+
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 20px;
+  padding: 20px 20px;
+
+
+}
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles  */
+
+header {
+
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: #131313;
+    font-size: 45px;  
+    font-weight: 700;
+   
+
+}
+
+nav>ul {
+    display: flex;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+ 
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+nav li a {
+
+    color: #424242;
+    text-decoration:none;
+
+   
+}
+
+/* banner styles */
+
+.banner-content{
+
+    width: 862px;
+text-align: center;
+margin: 0 auto;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color:  #131313;
+}
+
+.banner-description{
+    color: #727272;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+
