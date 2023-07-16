@@ -200,8 +200,64 @@ margin-top: 50px;
 }
 
 
+/* Features you will love & enjoy */
+.feature-content .card{
+padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 586px;
+    height: 171px;
+margin-bottom: 20px;
+}
 
 
+
+.ten-years-badge{
+
+    border-radius: 8px;
+    background: #FF900E;
+  padding: 40px;
+    color: #FFF;
+
+}
+.ten-years-badge h3{
+
+    font-size: 65px;
+    width: 258px;
+
+}
+
+
+
+
+.features{
+margin-top: 130px;
+display: flex;
+gap: 100px;
+}
+
+
+
+.features .section-title{
+border-left: 5px solid #FF900E;
+padding-left: 20px;
+ 
+
+
+}
+
+
+
+.section-title{
+
+    color: #131313;
+width: 460px;
+font-size: 45px;
+
+font-weight: 700;
+
+}
 
 
 
