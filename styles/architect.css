@@ -12,8 +12,8 @@
     font-size: 20px;
     padding: 20px 20px;
     margin: 20px 25px;
-   cursor: pointer;
-   border: 0;
+    cursor: pointer;
+    border: 0;
 
 }
 
@@ -91,178 +91,223 @@ nav li a {
 
 }
 
-.banner img{
+.banner img {
     width: 100%;
- 
+
 }
 
 /* main style */
 
 main {
-max-width: 1440px;
-margin: auto;
+    max-width: 1440px;
+    margin: auto;
 
 }
+
 /* teams style */
-.teams-container{
+.teams-container {
 
     display: flex;
     align-items: center;
 }
-.teams-img-container{
+
+.teams-img-container {
     display: grid;
-    grid-template-columns:repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
-.teams-content{
-padding-right:70px ;
-padding-left: 70px;
+.teams-content {
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
-.teams-title{
-font-size: 45px;
+.teams-title {
+    font-size: 45px;
 }
-.Quick{
-color: #727272;
-font-weight: 500;
+
+.Quick {
+    color: #727272;
+    font-weight: 500;
 
 }
 
-.of-Our{
-color:  #131313;
-font-weight: 700;
+.of-Our {
+    color: #131313;
+    font-weight: 700;
 }
 
-.Features-color{
+.Features-color {
     color: #FF900E;
     font-weight: 700;
 }
 
-.teams-desc{
-color:  #727272;
-font-size: 16px;
-font-weight: 400;
+.teams-desc {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
 
 }
 
 /* facts section */
-.facts-card-container{
-display: flex;
-justify-content: space-around;
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
 
 
 }
 
 
-.facts-card-container .card{
+.facts-card-container .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align: center;
-   padding: 30px;
- 
+    padding: 30px;
+
 
 
 
 }
 
-.facts-card-container .card-title{
-color:  #727272;
-font-size: 20px;
-font-weight: 600;
-margin-top: 5px;
+.facts-card-container .card-title {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
 
 
-.facts-card-container .card-stats{
-    color:   #424242;
+.facts-card-container .card-stats {
+    color: #424242;
     font-size: 45px;
     font-weight: 600;
     margin-top: 10px;
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* sponsors styles */
-.sponsors{
-text-align:center ;
+.sponsors {
+    text-align: center;
 
 }
 
-.sponsors-img-container{
-margin-top: 50px;
+.sponsors-img-container {
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
-.sponsors-img-container img{
 
-    width:165px ;
+.sponsors-img-container img {
+
+    width: 165px;
+
 }
 
 
 /* Features you will love & enjoy */
-.feature-content .card{
-padding: 30px;
+.feature-img img {
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+    margin-left: 90px;
+}
+
+
+
+.feature-content .card {
+    padding: 30px;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     width: 586px;
     height: 171px;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
 
-.ten-years-badge{
+.ten-years-badge {
 
     border-radius: 8px;
     background: #FF900E;
-  padding: 40px;
+    padding: 40px;
     color: #FFF;
-
+    width: 342px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
-.ten-years-badge h3{
+
+.ten-years-badge h2 {
 
     font-size: 65px;
     width: 258px;
+    margin: 0;
+
+}
+
+
+.ten-years-badge .p {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: 500;
+
+
+
+}
+
+.features {
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+
+
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+
 
 }
 
 
 
-
-.features{
-margin-top: 130px;
-display: flex;
-gap: 100px;
-}
-
-
-
-.features .section-title{
-border-left: 5px solid #FF900E;
-padding-left: 20px;
- 
-
-
-}
-
-
-
-.section-title{
+.section-title {
 
     color: #131313;
-width: 460px;
-font-size: 45px;
+    width: 460px;
+    font-size: 45px;
 
-font-weight: 700;
+    font-weight: 700;
 
 }
 
 
 
+footer {
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 240px;
+
+}
+
+.footer p {
+
+    color: #424242;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 38px;
 
 
+
+}
 
 
 
@@ -293,17 +338,17 @@ font-weight: 700;
 
 
 /* responsive media query */
-.responsive-styles{
+.responsive-styles {
     @media screen and (max-width:576px) {
-     header{
-        padding: 50px;
-     }
-    
+        header {
+            padding: 50px;
+        }
+
     }
-    nav{
-    
+
+    nav {
+
         flex-direction: column;
     }
-    
-    }
-    
+
+}
